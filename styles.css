@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    color: #007BFF;
+}
+
+.auth-form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #007BFF;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#game-container, #game-end-container {
+    margin-top: 20px;
+}
+
+#house-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.house-card {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.house-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#game-end-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#game-end-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#game-end-container button:hover {
+    background-color: #0056b3;
+}
